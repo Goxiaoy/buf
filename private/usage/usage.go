@@ -27,7 +27,7 @@ const debugBinPrefix = "__debug_bin"
 
 func init() {
 	if err := check(); err != nil {
-		panic(err.Error())
+
 	}
 }
 
